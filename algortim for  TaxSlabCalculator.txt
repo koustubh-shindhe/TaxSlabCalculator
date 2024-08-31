@@ -1,0 +1,28 @@
+If income ≤ 300,000:
+tax = 0
+Else If income ≤ 600,000:
+tax = 5% of (income - 300,000)
+Else If income ≤ 900,000:
+tax = 15,000 + 10% of (income - 600,000)
+Else If income ≤ 1,200,000:
+tax = 45,000 + 15% of (income - 900,000)
+Else If income ≤ 1,500,000:
+tax = 90,000 + 20% of (income - 1,200,000)
+Else:
+tax = 150,000 + 30% of (income - 1,500,000)
+Output the Tax:
+Print the value of tax.
+
+!!Points to be noteded!!
+upto 3L = 0 tax
+3L to 6L = 5% tax
+6L to 9L =10% tax
+9L  to 12L =15% tax
+12L to 15L =20% tax
+above 15L  =30% tax
+======================================================================================================================================================
+Calculated tax for the first slab (3-6 lakhs): 5% of 300000 = 15000 
+Calculated tax for the first slab (3-6 lakhs=15000)+ (6L to 9L Tax+10% of (income - 600000) )
+Calculated tax for the first slab (3-6 lakhs = 15000)+ (6L to 9L= 30000 ) +(9L to 12L ( + 0.15 * (income - 900000)))
+Calculated tax for the first slab (3-6 lakhs = 15000) +(6L to 9L= 30000 ) +(9L to 12L =45000 ) (12L to 15L) + 0.20 * (income - 1200000)
+Calculated tax for the first slab (3-6 lakhs = 15000) +(6L to 9L= 30000 ) +(9L to 12L =45000 ) +(12L to 15L = 60000) (for above 15L + 0.30 * (income - 1500000) ) 
