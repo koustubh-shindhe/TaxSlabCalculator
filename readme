@@ -1,6 +1,7 @@
 # TaxSlabCalculator
 
-**TaxSlabCalculator** is a simple C program designed to calculate the income tax based on various income ranges. This program provides a quick and easy way to estimate the tax liability for individuals based on their income.
+**TaxSlabCalculator** is a simple C program designed to calculate the income tax based on various income ranges. 
+  This program provides a quick and easy way to estimate the tax liability for individuals based on their income.
 
 ## Features
 
