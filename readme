@@ -1,0 +1,48 @@
+# TaxSlabCalculator
+
+**TaxSlabCalculator** is a simple C program designed to calculate the income tax based on various income ranges. This program provides a quick and easy way to estimate the tax liability for individuals based on their income.
+
+## Features
+
+- **Simple Input**: Users input their annual income, and the program calculates the corresponding tax.
+- **Tax Brackets**: The program calculates tax based on predefined income ranges, with different rates for each range.
+- **Immediate Results**: Displays the total tax amount to be paid based on the user's income.
+
+## Tax Brackets
+
+The program uses the following tax brackets:
+
+- Income up to 3,00,000: No tax
+- Income from 3,00,001 to 6,00,000: 5% tax on income exceeding 3,00,000
+- Income from 6,00,001 to 9,00,000: 10% tax on income exceeding 6,00,000
+- Income from 9,00,001 to 12,00,000: 15% tax on income exceeding 9,00,000
+- Income from 12,00,001 to 15,00,000: 20% tax on income exceeding 12,00,000
+- Income above 15,00,000: 30% tax on income exceeding 15,00,000
+
+## Requirements
+
+- C compiler (e.g., GCC)
+- Standard C library
+
+## Installation and Setup
+
+1. **Clone the repository**:
+   ```bash
+   git clone https://github.com/koustubh-shindhe/TaxSlabCalculator.git
+
+## Usage
+- Execute the compiled program.
+- When prompted, enter your annual income as a whole number (e.g., 450000).
+- The program will calculate and display the total tax based on the entered income.
+## Example
+- Enter The Income: 750000
+- The total tax you need to pay is = 15000.00
+## Code Explanation
+- The program first initializes income as an integer and tax as a float to store the total tax amount.
+- It prompts the user to enter their annual income.
+- Based on the income entered, it checks various conditions to determine the applicable tax bracket.
+- The corresponding tax is calculated using the applicable tax rate and is displayed to the user.
+## Contributing
+Contributions are welcome! If you find any bugs or have suggestions for improvements, please open an issue or submit a pull request.
+## Contact
+For more details, visit the GitHub repository.||mail me shindhekoustubh@gmail.com 
